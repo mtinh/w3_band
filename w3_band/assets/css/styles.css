@@ -1,0 +1,71 @@
+/* reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    /* loại bỏ khỏi tính toán kích thước */
+    box-sizing: border-box; 
+}
+
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+ */
+
+/* 
+1. Vị trí
+2. Kích thước
+3. Màu Sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, hình vuông.... */
+/* Đặt font  */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    
+
+}
+
+#nav li {
+    display: inline-block;
+
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 29px 0 29px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+/* Tác động lên subnav từ thẻ cha là nav */
+#nav .subnav {
+    display: none;
+}
+
+#slider {
+
+}
+
+#footer {
+
+}
+
+#content {
+
+}
